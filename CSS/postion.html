@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position properties</title>
+    <style>
+       .container{
+         background-color: gainsboro;
+         width: 300px;
+         height: 300px;
+         margin: 100px;
+       }
+
+       .red{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        /* relative to parent */
+        position: relative;
+        top: 50px;
+        left: 50px;
+       }
+
+       .yellow{
+        background-color: yellow;
+        /* absolute- to html body */
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+       }
+
+       .oranges{
+        background-color: rgb(178, 119, 9);
+        width: 100px;
+        height: 100px;
+        /* fixed */
+        position: fixed;
+       }
+
+       .spacer{
+        height: 100vh;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- relative  -->
+        <div class="box red"></div>
+        <!-- absolute -->
+        <div class="box yellow"></div>
+        <div class="box oranges"></div>
+    </div>
+
+    <div class="spacer"></div>
+</body>
+</html>

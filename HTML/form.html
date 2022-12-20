@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <h1><u>Student Registration form</u></h1>
+    <table border="border">
+        <tr>
+            <td><label for="name">Student Name</label></td>
+            <td><input type="text" name="name" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>
+                <input type="radio" name="gender" value="male" id="">Male <br>
+                <input type="radio" name="gender" value="female" id="">Female
+            </td>
+        </tr>
+        <tr>
+            <td><label for="dob">Date of birth</label></td>
+            <td><input type="date" name="dob" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" name="password" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="address">Address</label></td>
+            <td><textarea name="address" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="hobbie">Hobbie</label></td>
+            <td>
+                <input type="checkbox" name="hobbie" value="Criket" id="">Criket <br>
+                <input type="checkbox" name="hobbie" value="Reading" id="">Reading <br>
+                <input type="checkbox" name="hobbie" value="Football" id="">Football
+            </td>
+        </tr>
+    </table>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+</body>
+</html>
