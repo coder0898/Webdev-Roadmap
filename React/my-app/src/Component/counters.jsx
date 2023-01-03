@@ -5,8 +5,8 @@ export default class Counters extends Component {
 
   render() {
     return (
-      <div>
-        <button onClick={this.props.onReset} >Reset</button>
+      <>
+        <button id="reset" onClick={this.props.onReset} >Reset</button>
         {this.props.counters.map((counter) => (
           <Counter
             key={counter.id}
@@ -17,7 +17,7 @@ export default class Counters extends Component {
             counter={counter}
           />
         ))}
-      </div>
+      </>
     );
   }
 }

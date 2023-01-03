@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: lightgray;
+    padding: 15px;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+nav span{
+  width: 60px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 1rem;
+  color:darkblue;
+}
+
+main{
+  margin-top: 21px;
+  margin-left: 10px;
+}
+
+main button{
+    width: 120px;
+    height: 43px;
+    font-size: 1.3rem;
+    border: none;
+}
+
+#reset{
+    background-color: blue;
+    color: #fff;
+    border-radius: 6px;
+    margin-bottom: 7px;
+}
+
+#reset:hover{
+    background-color: #fff;
+    color: blue;
+    border: 2px solid blue;
+}
+
+#countDiv{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 12px;
+}
+
+#countDiv h1{
+    font-size: 1rem;
+    margin-right: 15px;
+    color:darkmagenta;
+}
+
+#countDiv button{
+  margin-right: 15px;
+}
+
+#inc{
+  background-color: darkgoldenrod;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+#inc:hover{
+    background-color: #fff;
+    border: 2px solid darkgoldenrod;
+    color: darkorange;
+}
+
+#del{
+    background-color: red;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px; 
+}
+
+#del:hover{
+    background-color: #fff;
+    color: red;
+    border:2px solid red;
+    padding: 5px;
+}
