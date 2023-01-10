@@ -42,7 +42,7 @@ main button{
 #reset:hover{
     background-color: #fff;
     color: blue;
-    border: 2px solid blue;
+    border: 2px solid blue ;
 }
 
 #countDiv{
